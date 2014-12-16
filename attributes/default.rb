@@ -10,6 +10,7 @@ default['solr']['url']      = "https://archive.apache.org/dist/lucene/solr/#{nod
 default['solr']['data_dir'] = '/etc/solr'
 default['solr']['dir']      = '/opt/solr'
 default['solr']['port']     = '8984'
+default['solr']['user']     = 'root'
 default['solr']['pid_file'] = '/var/run/solr.pid'
 default['solr']['log_file'] = '/var/log/solr.log'
 default['solr']['install_java'] = true

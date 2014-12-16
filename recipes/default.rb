@@ -58,6 +58,7 @@ template '/etc/init.d/solr' do
     :solr_dir => extract_path,
     :solr_home => node['solr']['data_dir'],
     :port => node['solr']['port'],
+    :user => node['solr']['user'],
     :pid_file => node['solr']['pid_file'],
     :log_file => node['solr']['log_file']
   )
